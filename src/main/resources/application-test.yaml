@@ -13,3 +13,4 @@ spring:
       ack-mode: manual
 kafka:
   topic: test-topic
+  output-topic: result-topic

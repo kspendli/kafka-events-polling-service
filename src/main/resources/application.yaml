@@ -14,3 +14,4 @@ spring:
 
 kafka:
   topic: test-topic
+  output-topic: result-topic

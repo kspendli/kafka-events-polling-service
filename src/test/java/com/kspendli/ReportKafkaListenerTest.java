@@ -30,8 +30,8 @@ class ReportKafkaListenerTest {
     @Test
     void shouldConsumeJsonMessageSuccessfully() throws InterruptedException {
 
-        kafkaTemplate.send("test-topic", "{\"message\":\"test-message\"}");
+        kafkaTemplate.send("test-topic", "{\"country\":\"CN\"}");
 
-        Thread.sleep(10000);
+        Thread.sleep(30000);
     }
 }
